@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+
+body {
+    letter-spacing: 2px;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient( 45deg, rgb(240, 139, 240),  rgb(237, 156, 171) , rgb(115, 115, 248));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    font-size: 3rem;
+    color: aliceblue;
+}
+.section {
+    text-align: center;
+}
+button {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    color: rgb(252, 67, 98);
+    font-size: 7rem;
+    filter: grayscale();
+    cursor: pointer;
+    transition: filter 0.05s all ease-in;
+}
+button:hover{
+    filter: grayscale(0);
+    box-shadow: 2px 2px 10px gray ;
+}
+button:active {
+    box-shadow: 0px 1px 5px gray ;
+}
+
+.emoji-name {
+    font-size: 2rem;
+    font-weight: 600;
+    color: darkblue;
+}
